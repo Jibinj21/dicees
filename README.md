@@ -1,2 +1,2 @@
-# dicees
+
 Javascript Dicee game
