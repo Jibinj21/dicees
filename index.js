@@ -48,7 +48,7 @@ click2Image.onclick = function(){
 document.querySelector('.img2').addEventListener('click', spineDicetwo);
 
 function spineDicetwo(){
-    if(count2 < 10){
+    if(count2 <= 10){
 
         var randomNumber2 = Math.floor(Math.random() * 6) + 1;
     
