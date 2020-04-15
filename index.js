@@ -16,7 +16,7 @@ document.querySelector('.img1').addEventListener('click', spinDiceone);
 
 function spinDiceone() {
     
-    if(count <= 4){
+    if(count <= 10){
 
         var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
@@ -48,7 +48,7 @@ click2Image.onclick = function(){
 document.querySelector('.img2').addEventListener('click', spineDicetwo);
 
 function spineDicetwo(){
-    if(count2 < 4){
+    if(count2 < 10){
 
         var randomNumber2 = Math.floor(Math.random() * 6) + 1;
     
